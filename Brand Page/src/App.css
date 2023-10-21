@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+*{
+  margin: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+align-items: center;
+}
+
+nav ul{
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+nav button{
+  background-color: rgb(205, 35, 35);
+  width: 75px;
+  height: 31px;
+  margin-top: 21px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+nav button:hover{
+  background-color: brown;
+}
+
+.main{
+  display: flex;
+  
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
+  height: calc(100vh - 72px);
+}
+.main h1{
+  font-size: 108px;
+  font-weight: 800;
+  line-height: 102px ;
+}
+.main p{
+  font-weight: 100;
+  color: gray;
+  width: 404px;
+  height: 91px;
+  margin-top: 20px;
+}
+
+.buttons #one{
+  margin-right: 10px;
+  background-color: rgb(205, 35, 35);
+  width: 150px;
+  height: 41px;
+  margin-top: 21px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.buttons #two{
+  margin-right: 10px;
+  
+  width: 150px;
+  height: 41px;
+  margin-top: 21px;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.buttons #one:hover{
+  background-color: brown;
+}
+.buttons #two:hover{
+  background-color: rgb(229, 204, 204);
+}
+
+.brand{
+  margin-top: -40px;
+
+}
+.brand img{
+  margin-right: 20px;
+}
