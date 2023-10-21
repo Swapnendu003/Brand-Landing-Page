@@ -12,13 +12,13 @@ const Hero = () => {
                 <div className="shop">
                     <p>Also Available On</p>
                     <div className="brand">
-                        <img src="/public/images/flipkart.png" alt="" />
-                        <img src="/public/images/amazon.png" alt="" />
+                        <img src="https://i.postimg.cc/T17gvVvF/flipkart.png" alt="" />
+                        <img src="https://i.postimg.cc/gJK3N9SY/amazon.png" alt="" />
                     </div>
                 </div>
             </div>
             <div className="image">
-            <img src="/public/images/shoe_image.png" alt="" />
+            <img src="https://i.postimg.cc/8kthvSf4/shoe-image.png" alt="" />
             </div>
         </div>
     )
